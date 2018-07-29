@@ -2,21 +2,8 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import GreenRings from './src/GreenRings'
 
-export default class NativeApp extends React.Component {
-  render() {
-    return (
-      <View>
-        <Text>Blablabla</Text>
-      </View>
-    );
-  }
-}
+//STRANGE CODE ALERT
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+//this is to make sure that the entrypoints are the same
+//this way the image paths are the same
+export default GreenRings
