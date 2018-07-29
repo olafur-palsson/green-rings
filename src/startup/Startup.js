@@ -23,11 +23,9 @@ export default class Startup extends React.Component {
           style={styles.logo}
           resizeMode='contain'
         />
-        <View style={styles.loginFormContainer}>
           <GrowIntoView>
             <LoginForm style={styles.loginForm} />
           </GrowIntoView>
-        </View>
       </ImageBackground>
     )
   }

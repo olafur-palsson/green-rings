@@ -34,6 +34,9 @@ export default class GrowIntoView extends React.Component {
     return(
         <Animated.View
           style={{
+            minWidth: '100%',
+            justifyContent: 'center',
+            alignItems: 'center',
             opacity: a_visibility,
             flex: a_growing,
           }}
