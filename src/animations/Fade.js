@@ -50,6 +50,14 @@ export default class Fade extends React.Component {
     }, delay)
   }
 
+  fadeOut_exeFn_fadeIn(inBetweenFunction, delay) {
+    this.fadeOut(delay)
+    setTimeout(() => {
+      inBetweenFunction()
+      this.fadeIn()
+    }, delay + this.duration)
+  }
+
   render() {
     return(
       <Animated.View

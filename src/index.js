@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Text } from 'react-native'
-import GreenRings from './GreenRings';
+import Application from './Application';
 import registerServiceWorker from './registerServiceWorker';
 import styles from './styles'
 
@@ -13,5 +13,5 @@ root.style.maxHeight = '100vh'
 root.style.display = 'flex'
 root.style.flexDirection = 'column'
 
-ReactDOM.render(<GreenRings />, root);
+ReactDOM.render(<Application />, root);
 registerServiceWorker();
