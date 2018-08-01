@@ -24,9 +24,10 @@ class Application extends Component {
 
   componentWillMount() {
     database.fauth.onAuthStateChanged((user) => {
+      console.log(user)
       this.animator.current.fadeOut_exeFn_fadeIn(() => {
         this.setState({
-          userIsLoggedIn: true,
+          userIsLoggedIn: user ? true : false,
           currentUser: user
         })
       })
