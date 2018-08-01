@@ -28,6 +28,7 @@
     "react-art": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-native": "^0.55.2",
+    "react-native-motion": "^0.2.0",
     "react-native-web": "^0.8.9",
     "react-scripts": "1.1.4"
   }
